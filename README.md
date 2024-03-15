@@ -1,6 +1,26 @@
 # Supplementary Materials
 
-# How to run the project locally?
+## How to make changes
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/solar-system-ml/book.git
+```
+
+2. Set up a new branch
+
+```bash
+git checkout -b mybranch
+```
+
+3. Add changes and commit them.
+
+4. Push the changes to the repository (under the new branch)
+
+5. If you know how to do this, create pull request to the `main` branch. Otherwise, simply send an email to Evgeny to incorporate the changes.
+
+## How to run the project locally?
 
 First of all, there is no particular need to install the project locally. You can only add your notebooks to the proper folder and commit the changes. However, if you want to check how will it be look like, follow the steps below.
 
