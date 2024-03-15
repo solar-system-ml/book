@@ -1,0 +1,10 @@
+site_name: Machine Learning for Small Bodies in the Solar System - Supplemental Material
+nav:
+    - Home: index.md
+    - Chapter 3: chapter3/example.ipynb
+plugins:
+    - mkdocs-jupyter
+theme:
+    name: readthedocs
+extra_javascript:
+    - https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
