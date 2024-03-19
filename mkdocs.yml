@@ -2,6 +2,7 @@ site_name: Machine Learning for Small Bodies in the Solar System - Supplemental 
 nav:
     - Home: index.md
     - Chapter 3: chapter3/example.ipynb
+    - Chapter 4: chapter4/CNN_ex.ipynb
 plugins:
     - mkdocs-jupyter
 theme:

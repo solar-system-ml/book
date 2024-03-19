@@ -10,7 +10,7 @@ This website provides access to supplementary materials to the Book `Machine Lea
 -   [Chapter 1. Machine Learning and Artificial Intelligence, an Overview]() by Valerio Carruba, Evgeny Smirnov, Dagmara Anna Oszkiewicz and Gabriel Caritá
 -   [Chapter 2. Identification of Asteroid Families’ Members]() by Rita de Cássia Domingos Sr.
 -   [Chapter 3. Asteroids in Mean-Motion Resonances](chapter3/example) by Evgeny Smirnov
--   [Chapter 4. Asteroid Families Interacting with Secular Resonances]() by Valerio Carruba
+-   [Chapter 4. Asteroid Families Interacting with Secular Resonances](chapter4/CNN_ex.ipynb) by Valerio Carruba
 -   [Chapter 5. Neural Networks in Celestial Dynamics: Capabilities, Advantages, and Challenges in Orbital Dynamics around Asteroids]() by Safwan Aljbaae
 -   [Chapter 6. Asteroid spectro-photometric characterization]() by Dagmara Anna Oszkiewicz, Hanna Klimczak and Antti Penttilä
 -   [Chapter 7. Kuiper Belt Objects]() by Kathryn Volk and Renu Malhotra
