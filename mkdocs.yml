@@ -4,6 +4,7 @@ nav:
     - Chapter 3: chapter3/example.ipynb
     - Chapter 4: chapter4/CNN_ex.ipynb
     - Chapter 6. Asteroid spectral classification: chapter6/Asteroid-spectral-classification-example.ipynb
+    - Chapter 7. Kuiper Belt Objects: chapter7/TNO-machine-learning-example.ipynb
 plugins:
     - mkdocs-jupyter
 theme:
