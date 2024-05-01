@@ -7,9 +7,9 @@ This website provides access to supplementary materials to the Book `Machine Lea
 
 ## Table of Contents
 
-<!-- -   [Chapter 1. Machine Learning and Artificial Intelligence, an Overview]() by Valerio Carruba, Evgeny Smirnov, Dagmara Anna Oszkiewicz and Gabriel Caritá
--   [Chapter 2. Identification of Asteroid Families’ Members]() by Rita de Cássia Domingos Sr. -->
+<!-- -   [Chapter 1. Machine Learning and Artificial Intelligence, an Overview]() by Valerio Carruba, Evgeny Smirnov, Dagmara Anna Oszkiewicz and Gabriel Caritá -->
 
+-   Chapter 2. Identification of Asteroid Families’ Members: [ML algorithms for the classification](chapter2/ML_algorithms_classification) and [Use of Machine Learning and Genetic Algorithms](chapter2/ML_genetic_algorithms) by Rita de Cássia Domingos Sr.
 -   [Chapter 3. Asteroids in Mean-Motion Resonances](chapter3/example) by Evgeny Smirnov
 -   [Chapter 4. Asteroid Families Interacting with Secular Resonances](chapter4/CNN_ex) by Valerio Carruba
 -   [Chapter 6. Asteroid spectro-photometric characterization](chapter6/Asteroid-spectral-classification-example) by Dagmara Anna Oszkiewicz, Hanna Klimczak and Antti Penttilä
