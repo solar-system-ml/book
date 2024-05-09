@@ -1,0 +1,10 @@
+## requirements for notebook cnn_mags_production.ipynb
+## code tested on version numbers shown
+
+python >=3.7.12
+numpy >= 1.19.5
+scipy >= 1.7.3
+keras >= 2.6.0
+tensorflow >= 2.6.2
+matplotlib >= 3.5.1
+
