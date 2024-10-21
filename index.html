@@ -8,7 +8,7 @@
     <title>Machine Learning for Small Bodies in the Solar System - Supplemental Material</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
@@ -17,11 +17,12 @@
         var mkdocs_page_url = null;
       </script>
     
+    <script src="js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-      <script>hljs.highlightAll();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -43,8 +44,6 @@
     <li class="toctree-l2"><a class="reference internal" href="#how-to-cite">How to cite?</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#authors">Authors</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a>
     </li>
     </ul>
                 </li>
@@ -74,7 +73,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="chapter9/cnn_mags_production/">Chapter 9. MOPS magnitude estimator using a Convolutional Neural Network</a>
+                <li class="toctree-l1"><a class="reference internal" href="chapter9/cnn_mags_production/">MOPS magnitude estimator using a Convolutional Neural Network</a>
                 </li>
               </ul>
       </div>
@@ -90,8 +89,8 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Home</li>
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Home</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -101,17 +100,14 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="machine-learning-for-small-bodies-in-the-solar-system">Machine Learning for Small Bodies in the Solar System</h1>
-<p>This website provides access to supplementary materials to the Book <code>Machine Learning for Small Bodies in the Solar System</code></p>
-<ul>
-<li><strong>TEMP:</strong> <a href="https://github.com/solar-system-ml/book">the link to the documentation</a> on how to contribute</li>
-<li><strong>TEMP 2:</strong> <a href="chapter3/example">the link to the example of a notebook</a></li>
-</ul>
+<p>This website provides access to supplementary materials to the book '<a href="https://shop.elsevier.com/books/machine-learning-for-small-bodies-in-the-solar-system/carruba/978-0-443-24770-5">Machine Learning for Small Bodies in the Solar System</a>' (Editors: Valerio Carruba, Evgeny Smirnov, Dagmara Oszkiewicz; ISBN: <code>9780443247705</code> and <code>9780443247712</code>).</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <!-- -   [Chapter 1. Machine Learning and Artificial Intelligence, an Overview]() by Valerio Carruba, Evgeny Smirnov, Dagmara Anna Oszkiewicz and Gabriel Caritá -->
 
+<!-- -   [Chapter 3. Asteroids in Mean-Motion Resonances](chapter3/example) by Evgeny Smirnov -->
+
 <ul>
 <li>Chapter 2. Identification of Asteroid Families’ Members: <a href="chapter2/ML_algorithms_classification">ML algorithms for the classification</a> and <a href="chapter2/ML_genetic_algorithms">Use of Machine Learning and Genetic Algorithms</a> by Rita de Cássia Domingos Sr.</li>
-<li><a href="chapter3/example">Chapter 3. Asteroids in Mean-Motion Resonances</a> by Evgeny Smirnov</li>
 <li><a href="chapter4/CNN_ex">Chapter 4. Asteroid Families Interacting with Secular Resonances</a> by Valerio Carruba</li>
 <li><a href="chapter6/Asteroid-spectral-classification-example">Chapter 6. Asteroid spectro-photometric characterization</a> by Dagmara Anna Oszkiewicz, Hanna Klimczak and Antti Penttilä</li>
 <li><a href="chapter7/TNO-machine-learning-example">Chapter 7. Kuiper Belt Objects</a> by Kathryn Volk and Renu Malhotra</li>
@@ -140,7 +136,7 @@
 <li>Evgeny Smirnov</li>
 <li>Kathryn Volk</li>
 </ul>
-<h2 id="contributors">Contributors</h2>
+<!-- ## Contributors -->
               
             </div>
           </div><footer>
@@ -173,21 +169,20 @@
     
   </span>
 </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = ".";</script>
-    <script src="js/theme_extra.js"></script>
-    <script src="js/theme.js"></script>
-      <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
-    <script>
-        jQuery(function () {
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js" defer></script>
+    <script defer>
+        window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
-        });
+        };
     </script>
 
 </body>
 </html>
 
 <!--
-MkDocs version : 1.5.3
-Build Date UTC : 2024-05-01 12:23:36.214810+00:00
+MkDocs version : 1.4.3
+Build Date UTC : 2024-10-21 12:09:38.567300+00:00
 -->
